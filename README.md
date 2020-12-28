@@ -1,16 +1,4 @@
 # AiExam
-windows 환경에서 Yolov3를 사용하기 위한 Darknet 프레임워크 및 학습데이터 생성을 위한 Yolo-mark 설치 및 환경 설정
 
-
-## 참고자료
-https://go-programming.tistory.com/158
-
-https://ctkim.tistory.com/81
-
-https://mickael-k.tistory.com/15
-
-https://reyrei.tistory.com/20?category=824469
-
-https://ctkim.tistory.com/82
-
-https://writenkeep.tistory.com/6
+opencv lib만을 이용하여 yolov3 모델 사용하여 객체 탐지
+이미지의 경우 올바르게 객체를 탐지해내지만 동영상 및 웹캠을 input data로 사용할 시 gpu자원을 사용하지않아 실시간 탐지가 어려움
